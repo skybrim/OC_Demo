@@ -20,8 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 #define IS_IPHONE_X (SCREEN_WIDTH == [WAdapter sizeFor58Inch].width && SCREEN_HEIGHT == [WAdapter sizeFor58Inch].height)
 #define IS_IPHONE_XR (SCREEN_WIDTH == [WAdapter sizeFor61Inch].width && SCREEN_HEIGHT == [WAdapter sizeFor61Inch].height && [UIScreen mainScreen].scale == 2)
 #define IS_IPHONE_XMAX (SCREEN_WIDTH == [WAdapter sizeFor65Inch].width && SCREEN_HEIGHT == [WAdapter sizeFor65Inch].height && [UIScreen mainScreen].scale == 3)
-# warning 放大模式
-
+# warning BigMode 放大模式适配
 
 #define STATUSBAR_HEIGHT (IS_IPHONE_X_XR_XMAX ? 44 : 20)
 #define HOME_INDICATOR_HEIGHT (IS_IPHONE_X_XR_XMAX ? (IS_LANDSCAPE ? 21 : 34) : 0)

@@ -7,8 +7,6 @@
 //
 
 #import "ViewController.h"
-#import <AVFoundation/AVFoundation.h>
-#import "WAdapter.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
