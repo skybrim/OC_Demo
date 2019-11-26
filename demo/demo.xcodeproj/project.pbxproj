@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		B84620AF238CB37A003120B1 /* WNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = B84620AE238CB37A003120B1 /* WNotificationName.m */; };
 		B84620B2238CB52F003120B1 /* WAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B84620B1238CB52F003120B1 /* WAdapter.m */; };
+		B84620B5238CBE49003120B1 /* image.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B84620B4238CBE49003120B1 /* image.bundle */; };
 		B873FA4323876E8700248DE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B873FA4223876E8700248DE6 /* AppDelegate.m */; };
 		B873FA4923876E8700248DE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B873FA4823876E8700248DE6 /* ViewController.m */; };
 		B873FA4E23876E8800248DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B873FA4D23876E8800248DE6 /* Assets.xcassets */; };
@@ -21,6 +22,7 @@
 		B84620AE238CB37A003120B1 /* WNotificationName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNotificationName.m; sourceTree = "<group>"; };
 		B84620B0238CB52F003120B1 /* WAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAdapter.h; sourceTree = "<group>"; };
 		B84620B1238CB52F003120B1 /* WAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAdapter.m; sourceTree = "<group>"; };
+		B84620B4238CBE49003120B1 /* image.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = image.bundle; sourceTree = "<group>"; };
 		B873FA3E23876E8700248DE6 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B873FA4123876E8700248DE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B873FA4223876E8700248DE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -43,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B84620B3238CBE28003120B1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B84620AD238CB37A003120B1 /* WNotificationName.h */,
+				B84620AE238CB37A003120B1 /* WNotificationName.m */,
+				B84620B0238CB52F003120B1 /* WAdapter.h */,
+				B84620B1238CB52F003120B1 /* WAdapter.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		B873FA3523876E8600248DE6 = {
 			isa = PBXGroup;
 			children = (
@@ -70,10 +83,8 @@
 				B873FA4F23876E8800248DE6 /* LaunchScreen.storyboard */,
 				B873FA5223876E8800248DE6 /* Info.plist */,
 				B873FA5323876E8800248DE6 /* main.m */,
-				B84620AD238CB37A003120B1 /* WNotificationName.h */,
-				B84620AE238CB37A003120B1 /* WNotificationName.m */,
-				B84620B0238CB52F003120B1 /* WAdapter.h */,
-				B84620B1238CB52F003120B1 /* WAdapter.m */,
+				B84620B4238CBE49003120B1 /* image.bundle */,
+				B84620B3238CBE28003120B1 /* Utils */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -136,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B873FA5123876E8800248DE6 /* LaunchScreen.storyboard in Resources */,
+				B84620B5238CBE49003120B1 /* image.bundle in Resources */,
 				B873FA4E23876E8800248DE6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
