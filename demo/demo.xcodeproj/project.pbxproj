@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B84620AF238CB37A003120B1 /* WNotificationName.m in Sources */ = {isa = PBXBuildFile; fileRef = B84620AE238CB37A003120B1 /* WNotificationName.m */; };
+		B84620B2238CB52F003120B1 /* WAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = B84620B1238CB52F003120B1 /* WAdapter.m */; };
 		B873FA4323876E8700248DE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B873FA4223876E8700248DE6 /* AppDelegate.m */; };
-		B873FA4623876E8700248DE6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B873FA4523876E8700248DE6 /* SceneDelegate.m */; };
 		B873FA4923876E8700248DE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B873FA4823876E8700248DE6 /* ViewController.m */; };
 		B873FA4E23876E8800248DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B873FA4D23876E8800248DE6 /* Assets.xcassets */; };
 		B873FA5123876E8800248DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B873FA4F23876E8800248DE6 /* LaunchScreen.storyboard */; };
@@ -16,11 +17,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B84620AD238CB37A003120B1 /* WNotificationName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WNotificationName.h; sourceTree = "<group>"; };
+		B84620AE238CB37A003120B1 /* WNotificationName.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WNotificationName.m; sourceTree = "<group>"; };
+		B84620B0238CB52F003120B1 /* WAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WAdapter.h; sourceTree = "<group>"; };
+		B84620B1238CB52F003120B1 /* WAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WAdapter.m; sourceTree = "<group>"; };
 		B873FA3E23876E8700248DE6 /* demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B873FA4123876E8700248DE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B873FA4223876E8700248DE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B873FA4423876E8700248DE6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		B873FA4523876E8700248DE6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		B873FA4723876E8700248DE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B873FA4823876E8700248DE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B873FA4D23876E8800248DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,14 +64,16 @@
 			children = (
 				B873FA4123876E8700248DE6 /* AppDelegate.h */,
 				B873FA4223876E8700248DE6 /* AppDelegate.m */,
-				B873FA4423876E8700248DE6 /* SceneDelegate.h */,
-				B873FA4523876E8700248DE6 /* SceneDelegate.m */,
 				B873FA4723876E8700248DE6 /* ViewController.h */,
 				B873FA4823876E8700248DE6 /* ViewController.m */,
 				B873FA4D23876E8800248DE6 /* Assets.xcassets */,
 				B873FA4F23876E8800248DE6 /* LaunchScreen.storyboard */,
 				B873FA5223876E8800248DE6 /* Info.plist */,
 				B873FA5323876E8800248DE6 /* main.m */,
+				B84620AD238CB37A003120B1 /* WNotificationName.h */,
+				B84620AE238CB37A003120B1 /* WNotificationName.m */,
+				B84620B0238CB52F003120B1 /* WAdapter.h */,
+				B84620B1238CB52F003120B1 /* WAdapter.m */,
 			);
 			path = demo;
 			sourceTree = "<group>";
@@ -143,9 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B873FA4923876E8700248DE6 /* ViewController.m in Sources */,
+				B84620B2238CB52F003120B1 /* WAdapter.m in Sources */,
 				B873FA4323876E8700248DE6 /* AppDelegate.m in Sources */,
 				B873FA5423876E8800248DE6 /* main.m in Sources */,
-				B873FA4623876E8700248DE6 /* SceneDelegate.m in Sources */,
+				B84620AF238CB37A003120B1 /* WNotificationName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +286,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUXR6G7733;
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUXR6G7733;
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

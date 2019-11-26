@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ViewController ()
+
+@property (nonatomic, copy, readwrite) NSString *testName;
 
 @end
 
@@ -19,6 +22,10 @@
     // Do any additional setup after loading the view.
  
     self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    AVPlayer *p = [AVPlayer playerWithURL:[NSURL URLWithString:@""]];
+    
+    
 }
 
 
