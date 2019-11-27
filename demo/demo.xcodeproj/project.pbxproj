@@ -18,6 +18,7 @@
 		B873FA5423876E8800248DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B873FA5323876E8800248DE6 /* main.m */; };
 		B877284C238E192D00F65FD1 /* WCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = B877284B238E192D00F65FD1 /* WCrashReport.m */; };
 		B877284F238E1F4500F65FD1 /* WLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B877284E238E1F4500F65FD1 /* WLocation.m */; };
+		B8772852238E589F00F65FD1 /* WPush.m in Sources */ = {isa = PBXBuildFile; fileRef = B8772851238E589F00F65FD1 /* WPush.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,8 @@
 		B877284B238E192D00F65FD1 /* WCrashReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCrashReport.m; sourceTree = "<group>"; };
 		B877284D238E1F4500F65FD1 /* WLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLocation.h; sourceTree = "<group>"; };
 		B877284E238E1F4500F65FD1 /* WLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLocation.m; sourceTree = "<group>"; };
+		B8772850238E589F00F65FD1 /* WPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPush.h; sourceTree = "<group>"; };
+		B8772851238E589F00F65FD1 /* WPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPush.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				B877284B238E192D00F65FD1 /* WCrashReport.m */,
 				B877284D238E1F4500F65FD1 /* WLocation.h */,
 				B877284E238E1F4500F65FD1 /* WLocation.m */,
+				B8772850238E589F00F65FD1 /* WPush.h */,
+				B8772851238E589F00F65FD1 /* WPush.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 				B84620B9238D080A003120B1 /* WMediator.m in Sources */,
 				B873FA4323876E8700248DE6 /* AppDelegate.m in Sources */,
 				B873FA5423876E8800248DE6 /* main.m in Sources */,
+				B8772852238E589F00F65FD1 /* WPush.m in Sources */,
 				B877284F238E1F4500F65FD1 /* WLocation.m in Sources */,
 				B84620AF238CB37A003120B1 /* WNotificationName.m in Sources */,
 			);
@@ -317,7 +323,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUXR6G7733;
 				INFOPLIST_FILE = demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +342,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUXR6G7733;
 				INFOPLIST_FILE = demo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

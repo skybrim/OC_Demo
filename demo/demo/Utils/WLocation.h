@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface WLocation : NSObject
 + (instancetype)shareLocation;
-- (void)requestLocationAuthorization;
+- (void)w_requestLocationAuthorization;
 @end
 
 NS_ASSUME_NONNULL_END

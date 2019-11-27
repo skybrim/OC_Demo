@@ -35,7 +35,7 @@
 }
 
 #pragma mark - 主动请求位置服务
-- (void)requestLocationAuthorization {
+- (void)w_requestLocationAuthorization {
     //判断系统是否开启定位权限
     if(![CLLocationManager locationServicesEnabled]){
         //跳转到设置界面，引导用户打开权限

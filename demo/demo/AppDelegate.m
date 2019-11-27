@@ -10,6 +10,7 @@
 #import "ViewController.h"
 #import "WCrashReport.h"
 #import "WLocation.h"
+#import "WPush.h"
 
 @interface AppDelegate ()
 
@@ -30,7 +31,8 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    [[WLocation shareLocation] requestLocationAuthorization];
+    [[WLocation shareLocation] w_requestLocationAuthorization];
+    [[WPush sharePush] w_requestPushAuthorization];
     return YES;
 }
 
@@ -39,6 +41,18 @@
     
     return YES;
 }
+
+#pragma mark - push
+- (void)application:(UIApplication *)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)deviceToken {
+    //注册 DeviceToken
+    [[WPush sharePush] w_registerDeviceToken:deviceToken];
+}
+
+- (void)application:(UIApplication *)application didFailToRegisterForRemoteNotificationsWithError:(NSError *)error {
+    //注册 DeviceToken 失败
+    [[WPush sharePush] w_registerDeviceTokenError:error];
+}
+
 
 #pragma mark - application life circle
 - (void)applicationWillResignActive:(UIApplication *)application {
