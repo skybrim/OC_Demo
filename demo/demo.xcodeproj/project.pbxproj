@@ -16,6 +16,7 @@
 		B873FA4E23876E8800248DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B873FA4D23876E8800248DE6 /* Assets.xcassets */; };
 		B873FA5123876E8800248DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B873FA4F23876E8800248DE6 /* LaunchScreen.storyboard */; };
 		B873FA5423876E8800248DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B873FA5323876E8800248DE6 /* main.m */; };
+		B877284C238E192D00F65FD1 /* WCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = B877284B238E192D00F65FD1 /* WCrashReport.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		B873FA5023876E8800248DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B873FA5223876E8800248DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B873FA5323876E8800248DE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B877284A238E192D00F65FD1 /* WCrashReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCrashReport.h; sourceTree = "<group>"; };
+		B877284B238E192D00F65FD1 /* WCrashReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCrashReport.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 				B84620B1238CB52F003120B1 /* WAdapter.m */,
 				B84620B7238D080A003120B1 /* WMediator.h */,
 				B84620B8238D080A003120B1 /* WMediator.m */,
+				B877284A238E192D00F65FD1 /* WCrashReport.h */,
+				B877284B238E192D00F65FD1 /* WCrashReport.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -165,6 +170,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B873FA4923876E8700248DE6 /* ViewController.m in Sources */,
+				B877284C238E192D00F65FD1 /* WCrashReport.m in Sources */,
 				B84620B2238CB52F003120B1 /* WAdapter.m in Sources */,
 				B84620B9238D080A003120B1 /* WMediator.m in Sources */,
 				B873FA4323876E8700248DE6 /* AppDelegate.m in Sources */,
@@ -301,7 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = demo/demo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUXR6G7733;
 				INFOPLIST_FILE = demo/Info.plist;
@@ -320,7 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = demo/demo.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MUXR6G7733;
 				INFOPLIST_FILE = demo/Info.plist;
