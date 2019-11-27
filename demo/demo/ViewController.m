@@ -49,4 +49,17 @@
 
 }
 
+#pragma mark - 替换 App Icon
+// 1 info.plist 添加相关配置
+// 2 替换
+- (void)w_changeIcon {
+    if (@available(iOS 10.3, *)) {
+        if ([UIApplication sharedApplication].supportsAlternateIcons) {
+            [[UIApplication sharedApplication] setAlternateIconName:@"ICONBLACK" completionHandler:^(NSError * _Nullable error) {
+                //回调
+            }];
+        }
+    }
+}
+
 @end

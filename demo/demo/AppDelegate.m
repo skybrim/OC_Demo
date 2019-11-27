@@ -53,19 +53,6 @@
     [[WPush sharePush] w_registerDeviceTokenError:error];
 }
 
-#pragma mark - 替换 App Icon
-// 1 info.plist 添加相关配置
-// 2 替换
-- (void)w_changeIcon {
-    if (@available(iOS 10.3, *)) {
-        if ([UIApplication sharedApplication].supportsAlternateIcons) {
-            [[UIApplication sharedApplication] setAlternateIconName:@"ICONBLACK" completionHandler:^(NSError * _Nullable error) {
-                //回调
-            }];
-        }
-    }
-}
-
 #pragma mark - application life circle
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
