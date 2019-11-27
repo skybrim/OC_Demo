@@ -1,14 +1,14 @@
 //
-//  WAdapter.m
+//  WUIAdapter.m
 //  demo
 //
 //  Created by wiley on 2019/11/26.
 //  Copyright © 2019 wiley. All rights reserved.
 //
 
-#import "WAdapter.h"
+#import "WUIAdapter.h"
 
-@implementation WAdapter
+@implementation WUIAdapter
 
 //iphone xs max
 + (CGSize)sizeFor65Inch{

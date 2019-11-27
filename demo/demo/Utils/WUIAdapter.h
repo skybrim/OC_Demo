@@ -1,5 +1,5 @@
 //
-//  WAdapter.h
+//  WUIAdapter.h
 //  demo
 //
 //  Created by wiley on 2019/11/26.
@@ -42,7 +42,7 @@ static inline CGPoint W_Origin(x,y,width,height){
     return CGPointMake(W_Adapter(x), W_Adapter(y));
 }
 
-@interface WAdapter : NSObject
+@interface WUIAdapter : NSObject
 
 //iphone xs max
 + (CGSize)sizeFor65Inch;

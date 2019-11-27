@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "WCrashReport.h"
+#import "WLocation.h"
 
 @interface AppDelegate ()
 
@@ -29,7 +30,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    
+    [[WLocation shareLocation] requestLocationAuthorization];
     return YES;
 }
 
