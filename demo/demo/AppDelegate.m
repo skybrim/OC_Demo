@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "WCrashReport.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,7 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-
+    
+    [WCrashReport W_caughtException];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     ViewController *rootVC = [[ViewController alloc] init];
 //    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:rootVC];

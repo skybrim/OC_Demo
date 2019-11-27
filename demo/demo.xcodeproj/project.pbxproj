@@ -17,6 +17,7 @@
 		B873FA5123876E8800248DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B873FA4F23876E8800248DE6 /* LaunchScreen.storyboard */; };
 		B873FA5423876E8800248DE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B873FA5323876E8800248DE6 /* main.m */; };
 		B877284C238E192D00F65FD1 /* WCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = B877284B238E192D00F65FD1 /* WCrashReport.m */; };
+		B877284F238E1F4500F65FD1 /* WLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B877284E238E1F4500F65FD1 /* WLocation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		B873FA5323876E8800248DE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B877284A238E192D00F65FD1 /* WCrashReport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WCrashReport.h; sourceTree = "<group>"; };
 		B877284B238E192D00F65FD1 /* WCrashReport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCrashReport.m; sourceTree = "<group>"; };
+		B877284D238E1F4500F65FD1 /* WLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLocation.h; sourceTree = "<group>"; };
+		B877284E238E1F4500F65FD1 /* WLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				B84620B8238D080A003120B1 /* WMediator.m */,
 				B877284A238E192D00F65FD1 /* WCrashReport.h */,
 				B877284B238E192D00F65FD1 /* WCrashReport.m */,
+				B877284D238E1F4500F65FD1 /* WLocation.h */,
+				B877284E238E1F4500F65FD1 /* WLocation.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 				B84620B9238D080A003120B1 /* WMediator.m in Sources */,
 				B873FA4323876E8700248DE6 /* AppDelegate.m in Sources */,
 				B873FA5423876E8800248DE6 /* main.m in Sources */,
+				B877284F238E1F4500F65FD1 /* WLocation.m in Sources */,
 				B84620AF238CB37A003120B1 /* WNotificationName.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
