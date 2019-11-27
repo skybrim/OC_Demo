@@ -68,7 +68,7 @@
     // 业务逻辑
     // coding...
     // 清空角标数字
-    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
+    [UIApplication sharedApplication].applicationIconBadgeNumber -= 1;
     completionHandler();
 }
 
