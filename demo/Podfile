@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'demo' do
+	pod 'AFNetworking'
+	pod 'SDWebImage'
+	pod 'CocoaLumberjack'
+	pod 'IGListKit'
+end
