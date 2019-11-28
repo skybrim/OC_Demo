@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -20,6 +20,7 @@
 		B877284C238E192D00F65FD1 /* WCrashReport.m in Sources */ = {isa = PBXBuildFile; fileRef = B877284B238E192D00F65FD1 /* WCrashReport.m */; };
 		B877284F238E1F4500F65FD1 /* WLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = B877284E238E1F4500F65FD1 /* WLocation.m */; };
 		B8772852238E589F00F65FD1 /* WPush.m in Sources */ = {isa = PBXBuildFile; fileRef = B8772851238E589F00F65FD1 /* WPush.m */; };
+		B8A25CA7238F64ED000E9E63 /* WLog.m in Sources */ = {isa = PBXBuildFile; fileRef = B8A25CA6238F64ED000E9E63 /* WLog.m */; };
 		B8E9BE66238E6C460048029B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E9BE65238E6C460048029B /* NotificationCenter.framework */; };
 		B8E9BE6A238E6C460048029B /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E9BE69238E6C460048029B /* TodayViewController.m */; };
 		B8E9BE6D238E6C460048029B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8E9BE6B238E6C460048029B /* MainInterface.storyboard */; };
@@ -76,6 +77,8 @@
 		B877284E238E1F4500F65FD1 /* WLocation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLocation.m; sourceTree = "<group>"; };
 		B8772850238E589F00F65FD1 /* WPush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPush.h; sourceTree = "<group>"; };
 		B8772851238E589F00F65FD1 /* WPush.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPush.m; sourceTree = "<group>"; };
+		B8A25CA5238F64ED000E9E63 /* WLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLog.h; sourceTree = "<group>"; };
+		B8A25CA6238F64ED000E9E63 /* WLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLog.m; sourceTree = "<group>"; };
 		B8E9BE63238E6C460048029B /* demoExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = demoExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8E9BE65238E6C460048029B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		B8E9BE68238E6C460048029B /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
@@ -110,7 +113,6 @@
 				134277DF8835576F2B40069B /* Pods-demo.debug.xcconfig */,
 				A495F28513F42BAD61C9FBFF /* Pods-demo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -129,6 +131,8 @@
 				B877284E238E1F4500F65FD1 /* WLocation.m */,
 				B8772850238E589F00F65FD1 /* WPush.h */,
 				B8772851238E589F00F65FD1 /* WPush.m */,
+				B8A25CA5238F64ED000E9E63 /* WLog.h */,
+				B8A25CA6238F64ED000E9E63 /* WLog.m */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -335,6 +339,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A25CA7238F64ED000E9E63 /* WLog.m in Sources */,
 				B873FA4923876E8700248DE6 /* ViewController.m in Sources */,
 				B877284C238E192D00F65FD1 /* WCrashReport.m in Sources */,
 				B84620B2238CB52F003120B1 /* WUIAdapter.m in Sources */,

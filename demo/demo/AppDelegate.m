@@ -11,6 +11,8 @@
 #import "WCrashReport.h"
 #import "WLocation.h"
 #import "WPush.h"
+#import "WLog.h"
+
 
 @interface AppDelegate ()
 
@@ -33,6 +35,9 @@
     
     [[WLocation shareLocation] w_requestLocationAuthorization];
     [[WPush sharePush] w_requestPushAuthorization];
+    
+    [WLog initLog];
+    
     return YES;
 }
 

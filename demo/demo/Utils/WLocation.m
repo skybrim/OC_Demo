@@ -63,10 +63,8 @@
     [coder reverseGeocodeLocation:location completionHandler:^(NSArray<CLPlacemark *> * _Nullable placemarks, NSError * _Nullable error) {
         //地标信息
         if (error) {
-            NSLog(@"error -- \n%@", error);
             return ;
         }
-        NSLog(@"placemarks -- \n%@", placemarks);
     }];
     [self.manager stopUpdatingLocation];//挺直获取
 }
